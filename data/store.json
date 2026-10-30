@@ -1,0 +1,2197 @@
+{
+  "users": [
+    {
+      "id": "admin-101",
+      "name": "Dr. K. Sharma (Placement Officer)",
+      "email": "admin@placeprep.edu",
+      "passwordHash": "c8b5f428ca4d42f770461d55cc820647e36bc2ae0d9aa063fd7c39005fb9a1e3",
+      "role": "admin",
+      "college": "National Institute of Technology",
+      "batch": "Placement Cell Administration",
+      "targetRole": "Placement Officer",
+      "createdAt": "2026-10-29T03:43:41.021Z"
+    },
+    {
+      "id": "stu-101",
+      "name": "Devika Sharma",
+      "email": "student@placeprep.edu",
+      "passwordHash": "cb1f2df8640a1ed2a70c28e7d0a31b49f898e4c518ed36201448f483f0d87a83",
+      "role": "student",
+      "college": "National Institute of Technology",
+      "batch": "2026 Batch - Computer Science",
+      "targetRole": "Software Development Engineer (SDE)",
+      "createdAt": "2026-10-29T03:43:41.021Z"
+    },
+    {
+      "id": "stu-1793249815283",
+      "name": "student",
+      "email": "student@placeprep.ai",
+      "passwordHash": "cb1f2df8640a1ed2a70c28e7d0a31b49f898e4c518ed36201448f483f0d87a83",
+      "role": "student",
+      "college": "National Institute of Technology",
+      "batch": "2026 Batch - Engineering",
+      "targetRole": "Software Development Engineer (SDE)",
+      "createdAt": "2026-10-29T04:56:55.283Z"
+    },
+    {
+      "id": "adm-1793250393480",
+      "name": "Placement Admin",
+      "email": "admin@placeprep.ai",
+      "passwordHash": "c8b5f428ca4d42f770461d55cc820647e36bc2ae0d9aa063fd7c39005fb9a1e3",
+      "role": "admin",
+      "college": "National Institute of Technology",
+      "batch": "Placement Cell Administration",
+      "targetRole": "Placement Officer",
+      "createdAt": "2026-10-29T05:06:33.480Z"
+    },
+    {
+      "id": "stu-1793338708893",
+      "name": "Harikesh M",
+      "email": "hari@placeprep.in",
+      "passwordHash": "18a656faecc7c97377c0ea8527adf39462339a3f3522a288df902d8fea2fbd9c",
+      "role": "student",
+      "college": "Bannari Amman Institute Of Technology",
+      "batch": "2026 Batch - Computer Science",
+      "targetRole": "Software Development Engineer (SDE)",
+      "createdAt": "2026-10-30T05:38:28.893Z"
+    },
+    {
+      "id": "stu-1793340623716",
+      "name": "Test Candidate",
+      "email": "candidate123@college.edu",
+      "passwordHash": "a16260f60b171562e841504c1aeda41445ed6010d1bcc7266a67c24185877ecb",
+      "role": "student",
+      "college": "IIT Madras",
+      "batch": "2026 Batch - Computer Science",
+      "targetRole": "Frontend Engineer",
+      "createdAt": "2026-10-30T06:10:23.716Z"
+    }
+  ],
+  "profiles": {
+    "stu-101": {
+      "id": "stu-101",
+      "name": "Devika Sharma",
+      "email": "devika.s@engineering.edu",
+      "college": "National Institute of Technology",
+      "batch": "2026 Batch - Computer Science",
+      "targetRole": "Software Development Engineer (SDE)",
+      "targetCompany": "Google, Amazon & Microsoft",
+      "streakDays": 8,
+      "lastActiveDate": "2026-10-29",
+      "xpPoints": 2450,
+      "level": "Placement Cadet (Level 4)",
+      "readinessScore": 78,
+      "moduleScores": {
+        "dsa": 76,
+        "aptitude": 82,
+        "sql": 79,
+        "coreCS": 74,
+        "consistency": 85
+      },
+      "solvedDSAIds": [
+        "dsa-1",
+        "dsa-2",
+        "dsa-4"
+      ],
+      "solvedAptitudeIds": [
+        "apt-1",
+        "apt-2",
+        "apt-4",
+        "apt-7"
+      ],
+      "solvedSqlIds": [
+        "sql-1",
+        "sql-2"
+      ],
+      "masteredFlashcardIds": [
+        "fc-1",
+        "fc-2",
+        "fc-5",
+        "fc-7"
+      ],
+      "completedMaterials": [
+        "os-1",
+        "dbms-1"
+      ],
+      "badges": [
+        {
+          "id": "b-streak-7",
+          "name": "Consistency Champion",
+          "description": "Maintained a 7-day continuous placement study streak",
+          "icon": "🔥",
+          "unlocked": true,
+          "unlockedAt": "2026-10-02"
+        },
+        {
+          "id": "b-dsa-ace",
+          "name": "Algorithm Novice",
+          "description": "Solved first 3 DSA problems with zero spoiler solutions",
+          "icon": "⚡",
+          "unlocked": true,
+          "unlockedAt": "2026-10-03"
+        },
+        {
+          "id": "b-sql-wizard",
+          "name": "Query Crafter",
+          "description": "Executed flawless multi-table SQL queries",
+          "icon": "💾",
+          "unlocked": true,
+          "unlockedAt": "2026-10-04"
+        },
+        {
+          "id": "b-interview-ready",
+          "name": "Mock Interviewer",
+          "description": "Completed 1 full AI Mock Interview with >80% score",
+          "icon": "🎙️",
+          "unlocked": false
+        },
+        {
+          "id": "b-placement-ready",
+          "name": "Campus Offer Ready",
+          "description": "Achieve overall Placement Readiness Score >= 90",
+          "icon": "🏆",
+          "unlocked": false
+        }
+      ]
+    },
+    "guest-user": {
+      "id": "stu-1793338708893",
+      "name": "Harikesh M",
+      "email": "hari@placeprep.in",
+      "college": "Bannari Amman Institute Of Technology",
+      "batch": "2026 Batch",
+      "targetRole": "Software Development Engineer (SDE)",
+      "targetCompany": "Dream Tech Companies",
+      "streakDays": 1,
+      "lastActiveDate": "2026-10-30",
+      "xpPoints": 40,
+      "level": "Placement Aspirant (Level 1)",
+      "readinessScore": 7,
+      "moduleScores": {
+        "dsa": 0,
+        "aptitude": 0,
+        "sql": 10,
+        "coreCS": 0,
+        "consistency": 50
+      },
+      "solvedDSAIds": [],
+      "solvedAptitudeIds": [],
+      "solvedSqlIds": [
+        "ext-1793250446890-4"
+      ],
+      "masteredFlashcardIds": [],
+      "completedMaterials": [],
+      "badges": [
+        {
+          "id": "b-streak-7",
+          "name": "Consistency Champion",
+          "description": "Maintained a 7-day continuous placement study streak",
+          "icon": "🔥",
+          "unlocked": false
+        },
+        {
+          "id": "b-dsa-ace",
+          "name": "Algorithm Novice",
+          "description": "Solved first 3 DSA problems with zero spoiler solutions",
+          "icon": "⚡",
+          "unlocked": false
+        },
+        {
+          "id": "b-sql-wizard",
+          "name": "Query Crafter",
+          "description": "Executed flawless multi-table SQL queries",
+          "icon": "💾",
+          "unlocked": false
+        },
+        {
+          "id": "b-interview-ready",
+          "name": "Mock Interviewer",
+          "description": "Completed 1 full AI Mock Interview with >80% score",
+          "icon": "🎙️",
+          "unlocked": false
+        },
+        {
+          "id": "b-placement-ready",
+          "name": "Campus Offer Ready",
+          "description": "Achieve overall Placement Readiness Score >= 90",
+          "icon": "🏆",
+          "unlocked": false
+        }
+      ]
+    },
+    "stu-1793249815283": {
+      "id": "stu-101",
+      "name": "student",
+      "email": "student@placeprep.ai",
+      "college": "National Institute of Technology",
+      "batch": "2026 Batch - Computer Science",
+      "targetRole": "Software Development Engineer (SDE)",
+      "targetCompany": "Google, Amazon & Microsoft",
+      "streakDays": 8,
+      "lastActiveDate": "2026-10-29",
+      "xpPoints": 3150,
+      "level": "Placement Cadet (Level 4)",
+      "readinessScore": 91,
+      "moduleScores": {
+        "dsa": 94,
+        "aptitude": 97,
+        "sql": 99,
+        "coreCS": 74,
+        "consistency": 85
+      },
+      "solvedDSAIds": [
+        "dsa-1",
+        "dsa-2",
+        "dsa-4",
+        "dsa-3",
+        "ext-1793250446889-3",
+        "ext-1793250431278-3"
+      ],
+      "solvedAptitudeIds": [
+        "apt-1",
+        "apt-2",
+        "apt-4",
+        "apt-7",
+        "ext-1793250446889-2",
+        "ext-1793250431278-2",
+        "apt-3",
+        "apt-5",
+        "apt-6"
+      ],
+      "solvedSqlIds": [
+        "sql-1",
+        "sql-2",
+        "ext-1793250446890-4",
+        "ext-1793250431277-1"
+      ],
+      "masteredFlashcardIds": [
+        "fc-1",
+        "fc-2",
+        "fc-5",
+        "fc-7"
+      ],
+      "completedMaterials": [
+        "os-1",
+        "dbms-1"
+      ],
+      "badges": [
+        {
+          "id": "b-streak-7",
+          "name": "Consistency Champion",
+          "description": "Maintained a 7-day continuous placement study streak",
+          "icon": "🔥",
+          "unlocked": true,
+          "unlockedAt": "2026-10-02"
+        },
+        {
+          "id": "b-dsa-ace",
+          "name": "Algorithm Novice",
+          "description": "Solved first 3 DSA problems with zero spoiler solutions",
+          "icon": "⚡",
+          "unlocked": true,
+          "unlockedAt": "2026-10-03"
+        },
+        {
+          "id": "b-sql-wizard",
+          "name": "Query Crafter",
+          "description": "Executed flawless multi-table SQL queries",
+          "icon": "💾",
+          "unlocked": true,
+          "unlockedAt": "2026-10-04"
+        },
+        {
+          "id": "b-interview-ready",
+          "name": "Mock Interviewer",
+          "description": "Completed 1 full AI Mock Interview with >80% score",
+          "icon": "🎙️",
+          "unlocked": false
+        },
+        {
+          "id": "b-placement-ready",
+          "name": "Campus Offer Ready",
+          "description": "Achieve overall Placement Readiness Score >= 90",
+          "icon": "🏆",
+          "unlocked": false
+        }
+      ]
+    },
+    "stu-1793340623716": {
+      "id": "stu-1793340623716",
+      "name": "Test Candidate",
+      "email": "candidate123@college.edu",
+      "college": "IIT Madras",
+      "batch": "2026 Batch - Computer Science",
+      "targetRole": "Frontend Engineer",
+      "targetCompany": "Dream Tech Companies",
+      "streakDays": 1,
+      "lastActiveDate": "2026-10-30",
+      "xpPoints": 0,
+      "level": "Placement Aspirant (Level 1)",
+      "readinessScore": 0,
+      "moduleScores": {
+        "dsa": 0,
+        "aptitude": 0,
+        "sql": 0,
+        "coreCS": 0,
+        "consistency": 50
+      },
+      "solvedDSAIds": [],
+      "solvedAptitudeIds": [],
+      "solvedSqlIds": [],
+      "masteredFlashcardIds": [],
+      "completedMaterials": [],
+      "badges": []
+    },
+    "stu-1793338708893": {
+      "id": "stu-1793338708893",
+      "name": "Harikesh M",
+      "email": "hari@placeprep.in",
+      "college": "Bannari Amman Institute Of Technology",
+      "batch": "2026 Batch",
+      "targetRole": "Software Development Engineer (SDE)",
+      "targetCompany": "Dream Tech Companies",
+      "streakDays": 1,
+      "lastActiveDate": "2026-10-30",
+      "xpPoints": 60,
+      "level": "Placement Aspirant (Level 1)",
+      "readinessScore": 7,
+      "moduleScores": {
+        "dsa": 0,
+        "aptitude": 0,
+        "sql": 10,
+        "coreCS": 0,
+        "consistency": 50
+      },
+      "solvedDSAIds": [],
+      "solvedAptitudeIds": [],
+      "solvedSqlIds": [
+        "ext-1793250446890-4"
+      ],
+      "masteredFlashcardIds": [],
+      "completedMaterials": [],
+      "badges": [
+        {
+          "id": "b-streak-7",
+          "name": "Consistency Champion",
+          "description": "Maintained a 7-day continuous placement study streak",
+          "icon": "🔥",
+          "unlocked": false
+        },
+        {
+          "id": "b-dsa-ace",
+          "name": "Algorithm Novice",
+          "description": "Solved first 3 DSA problems with zero spoiler solutions",
+          "icon": "⚡",
+          "unlocked": false
+        },
+        {
+          "id": "b-sql-wizard",
+          "name": "Query Crafter",
+          "description": "Executed flawless multi-table SQL queries",
+          "icon": "💾",
+          "unlocked": false
+        },
+        {
+          "id": "b-interview-ready",
+          "name": "Mock Interviewer",
+          "description": "Completed 1 full AI Mock Interview with >80% score",
+          "icon": "🎙️",
+          "unlocked": false
+        },
+        {
+          "id": "b-placement-ready",
+          "name": "Campus Offer Ready",
+          "description": "Achieve overall Placement Readiness Score >= 90",
+          "icon": "🏆",
+          "unlocked": false
+        }
+      ]
+    }
+  },
+  "aptitudeQuestions": [
+    {
+      "id": "ext-1793347430822-5",
+      "section": "Quantitative",
+      "topic": "Permutations & Combinations",
+      "difficulty": "Intermediate",
+      "question": "In how many different ways can the letters of the word 'LEADING' be arranged so that the vowels always come together?",
+      "options": [
+        "360",
+        "480",
+        "720",
+        "5040"
+      ],
+      "correctIndex": 2,
+      "explanation": "The vowels are E, A, I (3 vowels). Treat (E, A, I) as one unit. Remaining consonants: L, D, N, G (4 consonants). Total units = 4 + 1 = 5. Ways = 5! * 3! = 120 * 6 = 720.",
+      "formula": "Permutations = n! * r!",
+      "companyTags": [
+        "Tier-1 Campus Drive"
+      ]
+    },
+    {
+      "id": "ext-1793347430822-4",
+      "section": "Quantitative",
+      "topic": "Speed, Time & Distance",
+      "difficulty": "Easy",
+      "question": "A train running at 60 km/hr crosses a pole in 9 seconds. What is the length of the train?",
+      "options": [
+        "120 metres",
+        "150 metres",
+        "180 metres",
+        "324 metres"
+      ],
+      "correctIndex": 1,
+      "explanation": "Speed = 60 * (5/18) = 50/3 m/sec. Length of train = Speed * Time = (50/3) * 9 = 150 metres.",
+      "formula": "Distance = Speed * Time",
+      "companyTags": [
+        "Tier-1 Campus Drive"
+      ]
+    },
+    {
+      "id": "ext-1793250446889-2",
+      "section": "Quantitative",
+      "topic": "Quantitative Aptitude",
+      "difficulty": "Intermediate",
+      "question": "Two pipes A and B can fill a cistern in 20 and 30 minutes respectively. If both pipes are opened together, the time taken to fill the cistern is:",
+      "options": [
+        "12 minutes",
+        "15 minutes",
+        "25 minutes",
+        "50 minutes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Part filled by A in 1 min = 1/20. Part filled by B in 1 min = 1/30. Together in 1 min = (1/20 + 1/30) = 5/60 = 1/12. Hence the cistern fills in 12 minutes.",
+      "formula": "Total time = (A * B) / (A + B)",
+      "companyTags": [
+        "Tier-1 Campus Drive"
+      ]
+    },
+    {
+      "id": "ext-1793250431278-2",
+      "section": "Quantitative",
+      "topic": "Quantitative Aptitude",
+      "difficulty": "Intermediate",
+      "question": "Two pipes A and B can fill a cistern in 20 and 30 minutes respectively. If both pipes are opened together, the time taken to fill the cistern is:",
+      "options": [
+        "12 minutes",
+        "15 minutes",
+        "25 minutes",
+        "50 minutes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Part filled by A in 1 min = 1/20. Part filled by B in 1 min = 1/30. Together in 1 min = (1/20 + 1/30) = 5/60 = 1/12. Hence the cistern fills in 12 minutes.",
+      "formula": "Total time = (A * B) / (A + B)",
+      "companyTags": [
+        "Tier-1 Campus Drive"
+      ]
+    },
+    {
+      "id": "apt-1",
+      "section": "Quantitative",
+      "topic": "Time & Work",
+      "difficulty": "Intermediate",
+      "companyTags": [
+        "TCS Digital",
+        "Infosys",
+        "Wipro"
+      ],
+      "question": "A can do a piece of work in 12 days, and B can do it in 18 days. They work together for 4 days, and then A leaves. In how many more days will B finish the remaining work?",
+      "options": [
+        "8 days",
+        "6 days",
+        "10 days",
+        "7 days"
+      ],
+      "correctIndex": 0,
+      "formula": "Work done per day = 1 / Total days. Total Work = Rate × Time.",
+      "explanation": "Work done by A in 1 day = 1/12.\nWork done by B in 1 day = 1/18.\nIn 4 days together: 4 × (1/12 + 1/18) = 4 × (5/36) = 20/36 = 5/9.\nRemaining work = 1 - 5/9 = 4/9.\nDays taken by B to finish remaining work = (4/9) / (1/18) = (4/9) × 18 = 8 days."
+    },
+    {
+      "id": "apt-2",
+      "section": "Quantitative",
+      "topic": "Speed, Distance & Time",
+      "difficulty": "Beginner",
+      "companyTags": [
+        "Accenture",
+        "Cognizant",
+        "Deloitte"
+      ],
+      "question": "A train 180 meters long is running at a speed of 54 km/hr. How much time will it take to cross a telegraph post?",
+      "options": [
+        "10 seconds",
+        "12 seconds",
+        "14 seconds",
+        "16 seconds"
+      ],
+      "correctIndex": 1,
+      "formula": "Speed in m/s = Speed in km/hr × (5/18). Time = Distance / Speed.",
+      "explanation": "Speed = 54 × (5/18) = 15 m/s.\nDistance to cross telegraph post = length of the train = 180 m.\nTime = Distance / Speed = 180 / 15 = 12 seconds."
+    },
+    {
+      "id": "apt-3",
+      "section": "Quantitative",
+      "topic": "Permutations & Combinations",
+      "difficulty": "Advanced",
+      "companyTags": [
+        "Amazon",
+        "Morgan Stanley"
+      ],
+      "question": "In how many different ways can the letters of the word \"LEADING\" be arranged in such a way that the vowels always come together?",
+      "options": [
+        "720",
+        "360",
+        "5040",
+        "120"
+      ],
+      "correctIndex": 0,
+      "formula": "Group vowels as 1 entity: Total ways = (Entities)! × (Arrangements of vowels)!",
+      "explanation": "Vowels in LEADING: E, A, I (3 vowels).\nConsonants: L, D, N, G (4 consonants).\nTreat the 3 vowels as one single unit: [E, A, I] + 4 consonants = 5 units.\n5 units can be arranged in 5! = 120 ways.\nThe 3 vowels can be arranged amongst themselves in 3! = 6 ways.\nTotal arrangements = 120 × 6 = 720 ways."
+    },
+    {
+      "id": "apt-4",
+      "section": "Logical",
+      "topic": "Syllogisms",
+      "difficulty": "Intermediate",
+      "companyTags": [
+        "TCS NQT",
+        "Capgemini"
+      ],
+      "question": "Statements:\n1. All cats are animals.\n2. Some animals are wild.\nConclusions:\nI. Some wild entities are cats.\nII. Some animals are cats.\nWhich conclusion logically follows?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both follow",
+        "Neither follows"
+      ],
+      "correctIndex": 1,
+      "formula": "Venn Diagram deduction: Universal affirmative implies particular converse (All A are B => Some B are A).",
+      "explanation": "From \"All cats are animals\", we know cats are a subset of animals. Hence \"Some animals are cats\" (Conclusion II) is directly true.\nHowever, there is no necessary overlap specified between \"cats\" and \"wild\" entities. Hence Conclusion I is not guaranteed. Only II follows."
+    },
+    {
+      "id": "apt-5",
+      "section": "Logical",
+      "topic": "Seating Arrangement",
+      "difficulty": "Intermediate",
+      "companyTags": [
+        "Infosys",
+        "Amazon"
+      ],
+      "question": "Six persons A, B, C, D, E, and F sit in a row facing north. C sits between A and E. D is not at the end and sits immediately to the left of B. F is at the extreme right. If A is at the extreme left, who sits second to the left of F?",
+      "options": [
+        "B",
+        "D",
+        "E",
+        "C"
+      ],
+      "correctIndex": 1,
+      "formula": "Deductive slot placement: Fixed extremes first, then relational blocks.",
+      "explanation": "Row has 6 slots: [1, 2, 3, 4, 5, 6].\nA is at extreme left (slot 1) and F is at extreme right (slot 6).\nC is between A and E => Slot 2 is C, Slot 3 is E.\nRemaining slots: 4 and 5. D sits immediately to the left of B => Slot 4 is D, Slot 5 is B.\nRow order: A - C - E - D - B - F.\nF is at slot 6. Second to left of F is slot 4, which is D."
+    },
+    {
+      "id": "apt-6",
+      "section": "Verbal",
+      "topic": "Sentence Correction",
+      "difficulty": "Beginner",
+      "companyTags": [
+        "Cognizant",
+        "Deloitte",
+        "TCS"
+      ],
+      "question": "Identify the error in the sentence: \"Neither of the two candidates who applied for the senior developer position were selected by the committee.\"",
+      "options": [
+        "Neither of the two",
+        "who applied for",
+        "were selected",
+        "No error"
+      ],
+      "correctIndex": 2,
+      "formula": "Subject-Verb Agreement: Pronouns like \"Neither\", \"Either\", \"Each\" take singular verbs.",
+      "explanation": "\"Neither\" is a singular distributive pronoun referring to two items taken individually. Therefore, the singular verb \"was selected\" should be used instead of \"were selected\"."
+    },
+    {
+      "id": "apt-7",
+      "section": "Verbal",
+      "topic": "Reading Comprehension",
+      "difficulty": "Advanced",
+      "companyTags": [
+        "Amazon",
+        "Google"
+      ],
+      "question": "Author statement: \"While automation eliminates routine tasks, it shifts human capital toward creative synthesis and systems architecture.\" What is the primary implication?",
+      "options": [
+        "Automation permanently destroys high-wage employment.",
+        "Workers must transition to higher-order cognitive and structural problem-solving.",
+        "Manual programming will disappear entirely within months.",
+        "System architecture does not require human creativity."
+      ],
+      "correctIndex": 1,
+      "formula": "Contextual inference: synthesize explicit transition stated by author.",
+      "explanation": "The passage highlights that capital shifts away from routine execution towards synthesis and architecture, directly implying that human labor transitions to higher-order cognitive and analytical responsibilities."
+    }
+  ],
+  "dsaProblems": [
+    {
+      "id": "ext-1793347430822-3",
+      "title": "[DSA] Valid Parentheses: Given a string s containi",
+      "difficulty": "Easy",
+      "category": "Stacks",
+      "companies": [
+        "Placement Assessment"
+      ],
+      "acceptance": "75%",
+      "description": "[DSA] Valid Parentheses: Given a string s containing '(', ')', '{', '}', '[' and ']', determine if the input string is valid. Code: function isValid(s) { const stack = []; const map = { ')': '(', '}': '{', ']': '[' }; for (let char of s) { if (['(', '{', '['].includes(char)) { stack.push(char); } else if (stack.pop() !== map[char]) { return false; } } return stack.length === 0; } bracket. Time: O(N), Space: O(N). CAMPUS RECRUITMENT DRIVE 2026 - QUANTITATIVE & LOGICAL APTITUDE Page 2",
+      "examples": [
+        {
+          "input": "Standard Input",
+          "output": "Expected Output"
+        }
+      ],
+      "constraints": [
+        "N <= 10^5"
+      ],
+      "starterCodes": {
+        "javascript": "function solution(arr) {\n  return arr;\n}",
+        "python": "def solution(input):\n    return True",
+        "cpp": "int solution(int n) {\n    return n;\n}",
+        "java": "import java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input from System.in and print result\n    }\n}"
+      },
+      "testCases": [
+        {
+          "input": "test",
+          "expected": "test"
+        }
+      ],
+      "hints": [
+        "Use a Stack data structure (LIFO) to ensure closing brackets match the most recently opened"
+      ],
+      "optimalSolution": {
+        "language": "java",
+        "code": "function solution(arr) {\n  return arr;\n}",
+        "timeComplexity": "O(N)",
+        "spaceComplexity": "O(1)",
+        "explanation": "Use a Stack data structure (LIFO) to ensure closing brackets match the most recently opened"
+      }
+    },
+    {
+      "id": "ext-1793347430822-2",
+      "title": "[DSA] Reverse a Singly Linked List: Given the head",
+      "difficulty": "Easy",
+      "category": "Linked Lists",
+      "companies": [
+        "Placement Assessment"
+      ],
+      "acceptance": "75%",
+      "description": "[DSA] Reverse a Singly Linked List: Given the head of a singly linked list, reverse the list, and return the reversed list. Code: function reverseList(head) { let prev = null; let curr = head; while (curr !== null) { let next = curr.next; curr.next = prev; prev = curr; curr = next; } return prev; } auxiliary space.",
+      "examples": [
+        {
+          "input": "Standard Input",
+          "output": "Expected Output"
+        }
+      ],
+      "constraints": [
+        "N <= 10^5"
+      ],
+      "starterCodes": {
+        "javascript": "function solution(arr) {\n  return arr;\n}",
+        "python": "def solution(input):\n    return True",
+        "cpp": "int solution(int n) {\n    return n;\n}",
+        "java": "import java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input from System.in and print result\n    }\n}"
+      },
+      "testCases": [
+        {
+          "input": "test",
+          "expected": "test"
+        }
+      ],
+      "hints": [
+        "Iterate through the nodes, reversing each link pointer iteratively. Requires O(N) time and O(1)"
+      ],
+      "optimalSolution": {
+        "language": "java",
+        "code": "function solution(arr) {\n  return arr;\n}",
+        "timeComplexity": "O(N)",
+        "spaceComplexity": "O(1)",
+        "explanation": "Iterate through the nodes, reversing each link pointer iteratively. Requires O(N) time and O(1)"
+      }
+    },
+    {
+      "id": "ext-1793347430822-1",
+      "title": "TECHNICAL CODING ASSESSMENT 2026 - ALGORITHMS & DA",
+      "difficulty": "Intermediate",
+      "category": "Algorithms & Data Structures",
+      "companies": [
+        "Placement Assessment"
+      ],
+      "acceptance": "75%",
+      "description": "TECHNICAL CODING ASSESSMENT 2026 - ALGORITHMS & DATA STRUCTURES",
+      "examples": [
+        {
+          "input": "Standard Input",
+          "output": "Expected Output"
+        }
+      ],
+      "constraints": [
+        "N <= 10^5"
+      ],
+      "starterCodes": {
+        "javascript": "function solution(arr) {\n  return arr;\n}",
+        "python": "def solution(input):\n    return True",
+        "cpp": "int solution(int n) {\n    return n;\n}",
+        "java": "import java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input from System.in and print result\n    }\n}"
+      },
+      "testCases": [
+        {
+          "input": "test",
+          "expected": "test"
+        }
+      ],
+      "hints": [
+        "Step-by-step logic from uploaded test paper."
+      ],
+      "optimalSolution": {
+        "language": "java",
+        "code": "function solution(arr) {\n  return arr;\n}",
+        "timeComplexity": "O(N)",
+        "spaceComplexity": "O(1)",
+        "explanation": "Step-by-step logic from uploaded test paper."
+      }
+    },
+    {
+      "id": "dsa-1793345915787",
+      "title": "New DSA Problem",
+      "difficulty": "Medium",
+      "category": "Arrays",
+      "companies": [
+        "Tech Drive"
+      ],
+      "acceptance": "70%",
+      "description": "Enter problem description here...",
+      "examples": [
+        {
+          "input": "nums = [1, 2, 3]",
+          "output": "6"
+        }
+      ],
+      "constraints": [
+        "1 <= nums.length <= 10^5"
+      ],
+      "starterCodes": {
+        "javascript": "function solution(nums) {\n  // Write solution\n}",
+        "python": "def solution(nums):\n    pass",
+        "cpp": "int solution(vector<int>& nums) {\n    return 0;\n}",
+        "java": "import java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Write solution\n    }\n}"
+      },
+      "testCases": [
+        {
+          "input": {
+            "nums": [
+              1,
+              2,
+              3
+            ],
+            "target": 5
+          },
+          "expected": [
+            1,
+            2
+          ],
+          "isHidden": false
+        },
+        {
+          "input": {
+            "nums": [
+              10,
+              20,
+              30
+            ],
+            "target": 50
+          },
+          "expected": [
+            1,
+            2
+          ],
+          "isHidden": true
+        }
+      ],
+      "hints": [
+        "Hint 1"
+      ],
+      "optimalSolution": {
+        "language": "java",
+        "code": "import java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        // Optimal solution\n    }\n}",
+        "timeComplexity": "O(N)",
+        "spaceComplexity": "O(1)",
+        "explanation": "Explanation of optimal approach"
+      }
+    },
+    {
+      "id": "ext-1793250446889-3",
+      "title": "[DSA] Find Two Sum in an Array: Given an array of ",
+      "difficulty": "Intermediate",
+      "category": "Algorithms & Data Structures",
+      "companies": [
+        "Placement Assessment"
+      ],
+      "acceptance": "75%",
+      "description": "[DSA] Find Two Sum in an Array: Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.",
+      "examples": [
+        {
+          "input": "Standard Input",
+          "output": "Expected Output"
+        }
+      ],
+      "constraints": [
+        "N <= 10^5"
+      ],
+      "starterCodes": {
+        "javascript": "",
+        "python": "def solution(input):\n    return True",
+        "cpp": "int solution(int n) {\n    return n;\n}",
+        "java": "public class Solution {\n    public static void main(String[] args) {}\n}"
+      },
+      "testCases": [
+        {
+          "input": "test",
+          "expected": "test"
+        }
+      ],
+      "hints": [
+        "Hash Map lookup takes O(1) time per element, reducing overall time complexity from O(N^2) to O(N)."
+      ],
+      "optimalSolution": {
+        "language": "javascript",
+        "code": "function twoSum(nums, target) { const map = new Map(); for(let i=0; i<nums.length; i++) { if(map.has(target - nums[i])) return [map.get(target - nums[i]), i]; map.set(nums[i], i); } }",
+        "timeComplexity": "O(N)",
+        "spaceComplexity": "O(1)",
+        "explanation": "Hash Map lookup takes O(1) time per element, reducing overall time complexity from O(N^2) to O(N)."
+      }
+    },
+    {
+      "id": "ext-1793250431278-3",
+      "title": "[DSA] Find Two Sum in an Array: Given an array of ",
+      "difficulty": "Intermediate",
+      "category": "Algorithms & Data Structures",
+      "companies": [
+        "Placement Assessment"
+      ],
+      "acceptance": "75%",
+      "description": "[DSA] Find Two Sum in an Array: Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.",
+      "examples": [
+        {
+          "input": "Standard Input",
+          "output": "Expected Output"
+        }
+      ],
+      "constraints": [
+        "N <= 10^5"
+      ],
+      "starterCodes": {
+        "javascript": "function twoSum(nums, target) { const map = new Map(); for(let i=0; i<nums.length; i++) { if(map.has(target - nums[i])) return [map.get(target - nums[i]), i]; map.set(nums[i], i); } }",
+        "python": "def solution(input):\n    return True",
+        "cpp": "int solution(int n) {\n    return n;\n}",
+        "java": "public class Solution {\n    public static void main(String[] args) {}\n}"
+      },
+      "testCases": [
+        {
+          "input": "test",
+          "expected": "test"
+        }
+      ],
+      "hints": [
+        "Hash Map lookup takes O(1) time per element, reducing overall time complexity from O(N^2) to O(N)."
+      ],
+      "optimalSolution": {
+        "language": "javascript",
+        "code": "function twoSum(nums, target) { const map = new Map(); for(let i=0; i<nums.length; i++) { if(map.has(target - nums[i])) return [map.get(target - nums[i]), i]; map.set(nums[i], i); } }",
+        "timeComplexity": "O(N)",
+        "spaceComplexity": "O(1)",
+        "explanation": "Hash Map lookup takes O(1) time per element, reducing overall time complexity from O(N^2) to O(N)."
+      }
+    },
+    {
+      "id": "dsa-1",
+      "title": "Two Sum",
+      "difficulty": "Easy",
+      "category": "Arrays",
+      "companies": [
+        "Amazon",
+        "Google",
+        "Microsoft",
+        "TCS Digital"
+      ],
+      "acceptance": "82.4%",
+      "description": "Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.",
+      "examples": [
+        {
+          "input": "nums = [2,7,11,15], target = 9",
+          "output": "[0,1]",
+          "explanation": "Because nums[0] + nums[1] == 9, we return [0, 1]."
+        },
+        {
+          "input": "nums = [3,2,4], target = 6",
+          "output": "[1,2]",
+          "explanation": "Because nums[1] + nums[2] == 6, we return [1, 2]."
+        }
+      ],
+      "constraints": [
+        "2 <= nums.length <= 10^4",
+        "-10^9 <= nums[i] <= 10^9",
+        "-10^9 <= target <= 10^9",
+        "Only one valid answer exists."
+      ],
+      "starterCodes": {
+        "javascript": "function solution(input) {\n  // input is { nums: number[], target: number }\n  const { nums, target } = input;\n  const map = new Map();\n  for (let i = 0; i < nums.length; i++) {\n    const complement = target - nums[i];\n    if (map.has(complement)) {\n      return [map.get(complement), i];\n    }\n    map.set(nums[i], i);\n  }\n  return [];\n}",
+        "python": "def two_sum(nums, target):\n    seen = {}\n    for i, num in enumerate(nums):\n        complement = target - num\n        if complement in seen:\n            return [seen[complement], i]\n        seen[num] = i\n    return []",
+        "cpp": "#include <vector>\n#include <unordered_map>\nusing namespace std;\n\nvector<int> twoSum(vector<int>& nums, int target) {\n    unordered_map<int, int> mp;\n    for (int i = 0; i < nums.size(); i++) {\n        int diff = target - nums[i];\n        if (mp.find(diff) != mp.end()) {\n            return {mp[diff], i};\n        }\n        mp[nums[i]] = i;\n    }\n    return {};\n}",
+        "java": "import java.util.*;\n\npublic class Solution {\n    public int[] twoSum(int[] nums, int target) {\n        Map<Integer, Integer> map = new HashMap<>();\n        for (int i = 0; i < nums.length; i++) {\n            int complement = target - nums[i];\n            if (map.containsKey(complement)) {\n                return new int[] { map.get(complement), i };\n            }\n            map.put(nums[i], i);\n        }\n        return new int[]{};\n    }\n}"
+      },
+      "testCases": [
+        {
+          "input": {
+            "nums": [
+              2,
+              7,
+              11,
+              15
+            ],
+            "target": 9
+          },
+          "expected": [
+            0,
+            1
+          ]
+        },
+        {
+          "input": {
+            "nums": [
+              3,
+              2,
+              4
+            ],
+            "target": 6
+          },
+          "expected": [
+            1,
+            2
+          ]
+        },
+        {
+          "input": {
+            "nums": [
+              3,
+              3
+            ],
+            "target": 6
+          },
+          "expected": [
+            0,
+            1
+          ]
+        },
+        {
+          "input": {
+            "nums": [
+              1,
+              5,
+              8,
+              12,
+              19
+            ],
+            "target": 20
+          },
+          "expected": [
+            0,
+            4
+          ],
+          "isHidden": true
+        }
+      ],
+      "hints": [
+        "Stage 1 (Core Intuition): Instead of testing every pair with nested loops (O(N^2)), think about what number you need for each element `x` to sum to `target`.",
+        "Stage 2 (Data Structure): What data structure gives O(1) average lookup time for checking if the required complement has already appeared?",
+        "Stage 3 (Edge Cases): Ensure you do not use the exact same element index twice, and handle cases where duplicate values sum to target (e.g. [3,3] target 6).",
+        "Stage 4 (Pseudo-code): Initialize empty hash map. Iterate through array at index i. complement = target - nums[i]. If complement in map -> return [map[complement], i]. Otherwise put nums[i] -> i.",
+        "Stage 5 (Code Inspection): If returning wrong indices, check whether you are inserting into the map before or after checking the complement.",
+        "Stage 6 (Complexity): The hash map solution achieves O(N) time complexity and O(N) space complexity. Can it be done in O(1) space if the array were sorted?"
+      ],
+      "optimalSolution": {
+        "language": "JavaScript",
+        "code": "function twoSum(nums, target) {\n  const map = new Map();\n  for (let i = 0; i < nums.length; i++) {\n    const complement = target - nums[i];\n    if (map.has(complement)) {\n      return [map.get(complement), i];\n    }\n    map.set(nums[i], i);\n  }\n  return [];\n}",
+        "timeComplexity": "O(N) - single pass over the array",
+        "spaceComplexity": "O(N) - stores up to N elements in hash map",
+        "explanation": "We iterate through the array once. For each element, we calculate the required complement (target - nums[i]). By querying a hash map in O(1) time, we can determine whether we have already encountered this complement earlier."
+      }
+    },
+    {
+      "id": "dsa-2",
+      "title": "Valid Parentheses",
+      "difficulty": "Easy",
+      "category": "Stack",
+      "companies": [
+        "Amazon",
+        "Microsoft",
+        "Bloomberg",
+        "Infosys"
+      ],
+      "acceptance": "79.1%",
+      "description": "Given a string `s` containing just the characters `(`, `)`, `{`, `}`, `[` and `]`, determine if the input string is valid.\n\nAn input string is valid if:\n1. Open brackets must be closed by the same type of brackets.\n2. Open brackets must be closed in the correct order.\n3. Every close bracket has a corresponding open bracket of the same type.",
+      "examples": [
+        {
+          "input": "s = \"()\"",
+          "output": "true"
+        },
+        {
+          "input": "s = \"()[]{}\"",
+          "output": "true"
+        },
+        {
+          "input": "s = \"(]\"",
+          "output": "false"
+        }
+      ],
+      "constraints": [
+        "1 <= s.length <= 10^4",
+        "s consists of parentheses only '()[]{}'."
+      ],
+      "starterCodes": {
+        "javascript": "function solution(input) {\n  // input is string s\n  const s = typeof input === 'object' && input.s ? input.s : input;\n  const stack = [];\n  const map = { ')': '(', '}': '{', ']': '[' };\n  for (const ch of s) {\n    if (ch === '(' || ch === '{' || ch === '[') {\n      stack.push(ch);\n    } else {\n      if (stack.pop() !== map[ch]) return false;\n    }\n  }\n  return stack.length === 0;\n}",
+        "python": "def is_valid(s: str) -> bool:\n    stack = []\n    mapping = {\")\": \"(\", \"}\": \"{\", \"]\": \"[\"}\n    for char in s:\n        if char in mapping:\n            top = stack.pop() if stack else '#'\n            if mapping[char] != top:\n                return False\n        else:\n            stack.append(char)\n    return not stack",
+        "cpp": "#include <string>\n#include <stack>\n#include <unordered_map>\nusing namespace std;\n\nbool isValid(string s) {\n    stack<char> st;\n    unordered_map<char, char> mp = {{')', '('}, {'}', '{'}, {']', '['}};\n    for (char c : s) {\n        if (mp.count(c)) {\n            if (st.empty() || st.top() != mp[c]) return false;\n            st.pop();\n        } else {\n            st.push(c);\n        }\n    }\n    return st.empty();\n}",
+        "java": "import java.util.*;\n\npublic class Solution {\n    public boolean isValid(String s) {\n        Stack<Character> stack = new Stack<>();\n        for (char c : s.toCharArray()) {\n            if (c == '(') stack.push(')');\n            else if (c == '{') stack.push('}');\n            else if (c == '[') stack.push(']');\n            else if (stack.isEmpty() || stack.pop() != c) return false;\n        }\n        return stack.isEmpty();\n    }\n}"
+      },
+      "testCases": [
+        {
+          "input": "()",
+          "expected": true
+        },
+        {
+          "input": "()[]{}",
+          "expected": true
+        },
+        {
+          "input": "(]",
+          "expected": false
+        },
+        {
+          "input": "([)]",
+          "expected": false
+        },
+        {
+          "input": "{[]}",
+          "expected": true
+        },
+        {
+          "input": "(((",
+          "expected": false,
+          "isHidden": true
+        }
+      ],
+      "hints": [
+        "Stage 1 (Core Intuition): The most recently opened bracket must be the first one closed (LIFO - Last In, First Out).",
+        "Stage 2 (Data Structure): A Stack is the optimal data structure to enforce LIFO matching.",
+        "Stage 3 (Edge Cases): Watch out for odd length strings, strings starting with a closing bracket, or leftover unclosed brackets.",
+        "Stage 4 (Pseudo-code): For each character: if opening, push to stack. If closing: check if stack is empty (invalid); otherwise pop and verify matching type.",
+        "Stage 5 (Code Inspection): Make sure you finally check `stack.length === 0`, not just that no mismatches happened during traversal.",
+        "Stage 6 (Complexity): Time: O(N) where N is string length. Space: O(N) worst case if all characters are opening brackets."
+      ],
+      "optimalSolution": {
+        "language": "JavaScript",
+        "code": "function isValid(s) {\n  if (s.length % 2 !== 0) return false;\n  const stack = [];\n  const map = { ')': '(', '}': '{', ']': '[' };\n  for (let i = 0; i < s.length; i++) {\n    const ch = s[i];\n    if (ch === '(' || ch === '{' || ch === '[') {\n      stack.push(ch);\n    } else {\n      if (stack.length === 0 || stack.pop() !== map[ch]) {\n        return false;\n      }\n    }\n  }\n  return stack.length === 0;\n}",
+        "timeComplexity": "O(N) - one pass through string",
+        "spaceComplexity": "O(N) - stack holds at most N elements",
+        "explanation": "Using a stack allows us to ensure the nested closing brackets match the most recent unmatched opening bracket."
+      }
+    },
+    {
+      "id": "dsa-3",
+      "title": "Longest Substring Without Repeating Characters",
+      "difficulty": "Medium",
+      "category": "Strings",
+      "companies": [
+        "Amazon",
+        "Google",
+        "Adobe",
+        "Microsoft"
+      ],
+      "acceptance": "64.8%",
+      "description": "Given a string `s`, find the length of the longest substring without repeating characters.",
+      "examples": [
+        {
+          "input": "s = \"abcabcbb\"",
+          "output": "3",
+          "explanation": "The answer is \"abc\", with the length of 3."
+        },
+        {
+          "input": "s = \"bbbbb\"",
+          "output": "1",
+          "explanation": "The answer is \"b\", with the length of 1."
+        },
+        {
+          "input": "s = \"pwwkew\"",
+          "output": "3",
+          "explanation": "The answer is \"wke\", with the length of 3."
+        }
+      ],
+      "constraints": [
+        "0 <= s.length <= 5 * 10^4",
+        "s consists of English letters, digits, symbols and spaces."
+      ],
+      "starterCodes": {
+        "javascript": "function solution(input) {\n  const s = typeof input === 'object' && input.s ? input.s : (typeof input === 'string' ? input : '');\n  let maxLen = 0;\n  let left = 0;\n  const charMap = new Map();\n  for (let right = 0; right < s.length; right++) {\n    const ch = s[right];\n    if (charMap.has(ch) && charMap.get(ch) >= left) {\n      left = charMap.get(ch) + 1;\n    }\n    charMap.set(ch, right);\n    maxLen = Math.max(maxLen, right - left + 1);\n  }\n  return maxLen;\n}",
+        "python": "def length_of_longest_substring(s: str) -> int:\n    char_map = {}\n    left = 0\n    max_len = 0\n    for right, char in enumerate(s):\n        if char in char_map and char_map[char] >= left:\n            left = char_map[char] + 1\n        char_map[char] = right\n        max_len = max(max_len, right - left + 1)\n    return max_len",
+        "cpp": "#include <string>\n#include <unordered_map>\n#include <algorithm>\nusing namespace std;\n\nint lengthOfLongestSubstring(string s) {\n    unordered_map<char, int> mp;\n    int maxLen = 0, left = 0;\n    for (int right = 0; right < s.size(); right++) {\n        if (mp.count(s[right]) && mp[s[right]] >= left) {\n            left = mp[s[right]] + 1;\n        }\n        mp[s[right]] = right;\n        maxLen = max(maxLen, right - left + 1);\n    }\n    return maxLen;\n}",
+        "java": "import java.util.*;\n\npublic class Solution {\n    public int lengthOfLongestSubstring(String s) {\n        Map<Character, Integer> map = new HashMap<>();\n        int maxLen = 0, left = 0;\n        for (int right = 0; right < s.length(); right++) {\n            char c = s.charAt(right);\n            if (map.containsKey(c) && map.get(c) >= left) {\n                left = map.get(c) + 1;\n            }\n            map.put(c, right);\n            maxLen = Math.max(maxLen, right - left + 1);\n        }\n        return maxLen;\n    }\n}"
+      },
+      "testCases": [
+        {
+          "input": "abcabcbb",
+          "expected": 3
+        },
+        {
+          "input": "bbbbb",
+          "expected": 1
+        },
+        {
+          "input": "pwwkew",
+          "expected": 3
+        },
+        {
+          "input": "",
+          "expected": 0
+        },
+        {
+          "input": "au",
+          "expected": 2
+        },
+        {
+          "input": "abba",
+          "expected": 2,
+          "isHidden": true
+        }
+      ],
+      "hints": [
+        "Stage 1 (Core Intuition): Look at continuous subsegments. As you expand to the right, what happens when you encounter a character you already saw in the current window?",
+        "Stage 2 (Data Structure): Sliding Window with a Hash Map or Set. The map stores the last seen index of each character.",
+        "Stage 3 (Edge Cases): Empty string \"\" should return 0. Beware of jumping the left pointer backwards (e.g. in \"abba\").",
+        "Stage 4 (Pseudo-code): Maintain `left` pointer and `maxLen`. When `s[right]` exists in map and index >= left, update left = map[s[right]] + 1.",
+        "Stage 5 (Code Inspection): Make sure `left` is only moved forward: `left = Math.max(left, charMap.get(ch) + 1)`.",
+        "Stage 6 (Complexity): Time: O(N) linear scan. Space: O(min(m, n)) where m is charset size."
+      ],
+      "optimalSolution": {
+        "language": "JavaScript",
+        "code": "function lengthOfLongestSubstring(s) {\n  const map = new Map();\n  let maxLen = 0;\n  let left = 0;\n  for (let right = 0; right < s.length; right++) {\n    const ch = s[right];\n    if (map.has(ch) && map.get(ch) >= left) {\n      left = map.get(ch) + 1;\n    }\n    map.set(ch, right);\n    maxLen = Math.max(maxLen, right - left + 1);\n  }\n  return maxLen;\n}",
+        "timeComplexity": "O(N) - each character is visited once",
+        "spaceComplexity": "O(min(N, charset)) - map holds at most unique characters",
+        "explanation": "A sliding window technique with dynamic window expansion and immediate left-pointer adjustment based on previous character index."
+      }
+    },
+    {
+      "id": "dsa-4",
+      "title": "Coin Change",
+      "difficulty": "Medium",
+      "category": "Dynamic Programming",
+      "companies": [
+        "Amazon",
+        "Google",
+        "Flipkart",
+        "Goldman Sachs"
+      ],
+      "acceptance": "51.2%",
+      "description": "You are given an integer array `coins` representing coins of different denominations and an integer `amount` representing a total amount of money.\n\nReturn the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return `-1`.",
+      "examples": [
+        {
+          "input": "coins = [1,2,5], amount = 11",
+          "output": "3",
+          "explanation": "11 = 5 + 5 + 1"
+        },
+        {
+          "input": "coins = [2], amount = 3",
+          "output": "-1"
+        },
+        {
+          "input": "coins = [1], amount = 0",
+          "output": "0"
+        }
+      ],
+      "constraints": [
+        "1 <= coins.length <= 12",
+        "1 <= coins[i] <= 2^31 - 1",
+        "0 <= amount <= 10^4"
+      ],
+      "starterCodes": {
+        "javascript": "function solution(input) {\n  const { coins, amount } = input;\n  const dp = new Array(amount + 1).fill(Infinity);\n  dp[0] = 0;\n  for (let i = 1; i <= amount; i++) {\n    for (const coin of coins) {\n      if (i - coin >= 0) {\n        dp[i] = Math.min(dp[i], dp[i - coin] + 1);\n      }\n    }\n  }\n  return dp[amount] === Infinity ? -1 : dp[amount];\n}",
+        "python": "def coin_change(coins, amount):\n    dp = [float('inf')] * (amount + 1)\n    dp[0] = 0\n    for coin in coins:\n        for x in range(coin, amount + 1):\n            dp[x] = min(dp[x], dp[x - coin] + 1)\n    return dp[amount] if dp[amount] != float('inf') else -1",
+        "cpp": "#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint coinChange(vector<int>& coins, int amount) {\n    vector<int> dp(amount + 1, amount + 1);\n    dp[0] = 0;\n    for (int i = 1; i <= amount; i++) {\n        for (int c : coins) {\n            if (i - c >= 0) {\n                dp[i] = min(dp[i], dp[i - c] + 1);\n            }\n        }\n    }\n    return dp[amount] > amount ? -1 : dp[amount];\n}",
+        "java": "import java.util.*;\n\npublic class Solution {\n    public int coinChange(int[] coins, int amount) {\n        int[] dp = new int[amount + 1];\n        Arrays.fill(dp, amount + 1);\n        dp[0] = 0;\n        for (int i = 1; i <= amount; i++) {\n            for (int coin : coins) {\n                if (i - coin >= 0) {\n                    dp[i] = Math.min(dp[i], dp[i - coin] + 1);\n                }\n            }\n        }\n        return dp[amount] > amount ? -1 : dp[amount];\n    }\n}"
+      },
+      "testCases": [
+        {
+          "input": {
+            "coins": [
+              1,
+              2,
+              5
+            ],
+            "amount": 11
+          },
+          "expected": 3
+        },
+        {
+          "input": {
+            "coins": [
+              2
+            ],
+            "amount": 3
+          },
+          "expected": -1
+        },
+        {
+          "input": {
+            "coins": [
+              1
+            ],
+            "amount": 0
+          },
+          "expected": 0
+        },
+        {
+          "input": {
+            "coins": [
+              186,
+              419,
+              83,
+              408
+            ],
+            "amount": 6249
+          },
+          "expected": 20,
+          "isHidden": true
+        }
+      ],
+      "hints": [
+        "Stage 1 (Core Intuition): Notice this has optimal substructure: to make `amount`, if we pick coin `c`, we need `1 + minCoins(amount - c)`.",
+        "Stage 2 (Data Structure): A 1D DP table where `dp[i]` represents minimum coins needed to make amount `i`.",
+        "Stage 3 (Edge Cases): Base case: `dp[0] = 0`. Amounts that cannot be reached should remain Infinity / sentinel value.",
+        "Stage 4 (Pseudo-code): Initialize array of size amount + 1 filled with Infinity. dp[0] = 0. For i from 1 to amount: for coin in coins: if i - coin >= 0 -> dp[i] = min(dp[i], dp[i - coin] + 1).",
+        "Stage 5 (Code Inspection): Check your initial fill values. Do not use -1 initially because min() comparisons will pick -1!",
+        "Stage 6 (Complexity): Time: O(amount * len(coins)). Space: O(amount)."
+      ],
+      "optimalSolution": {
+        "language": "JavaScript",
+        "code": "function coinChange(coins, amount) {\n  const dp = new Array(amount + 1).fill(Infinity);\n  dp[0] = 0;\n  for (let i = 1; i <= amount; i++) {\n    for (const coin of coins) {\n      if (i - coin >= 0) {\n        dp[i] = Math.min(dp[i], dp[i - coin] + 1);\n      }\n    }\n  }\n  return dp[amount] === Infinity ? -1 : dp[amount];\n}",
+        "timeComplexity": "O(amount * N) where N is number of coins",
+        "spaceComplexity": "O(amount) for DP table",
+        "explanation": "Bottom-up DP iteratively builds up the minimum coins needed from 0 up to target amount."
+      }
+    }
+  ],
+  "sqlChallenges": [
+    {
+      "id": "ext-1793347430822-8",
+      "title": "[SQL] Department Wise Employee Count: Write a SQL ",
+      "difficulty": "Medium",
+      "topic": "Joins & Group By",
+      "description": "[SQL] Department Wise Employee Count: Write a SQL query to display department name along with the total count of employees working in each department.",
+      "relevantTables": [
+        "employees",
+        "departments"
+      ],
+      "starterQuery": "SELECT d.dept_name, COUNT(e.id) AS total_employees FROM departments d LEFT JOIN employees e ON d.id = e.dept_id GROUP BY d.dept_name ORDER BY total_employees DESC; on department name.",
+      "expectedQuery": "SELECT d.dept_name, COUNT(e.id) AS total_employees FROM departments d LEFT JOIN employees e ON d.id = e.dept_id GROUP BY d.dept_name ORDER BY total_employees DESC; on department name.",
+      "hints": [
+        "Uses a LEFT JOIN to include departments even if they currently have 0 employees, and GROUP BY"
+      ]
+    },
+    {
+      "id": "ext-1793347430822-7",
+      "title": "[SQL] Second Highest Salary: Write a SQL query to ",
+      "difficulty": "Medium",
+      "topic": "Subqueries & Aggregations",
+      "description": "[SQL] Second Highest Salary: Write a SQL query to find the second highest distinct salary from the employees table.",
+      "relevantTables": [
+        "employees",
+        "departments"
+      ],
+      "starterQuery": "SELECT MAX(salary) AS SecondHighestSalary FROM employees WHERE salary < (SELECT MAX(salary) FROM employees); the top salary.",
+      "expectedQuery": "SELECT MAX(salary) AS SecondHighestSalary FROM employees WHERE salary < (SELECT MAX(salary) FROM employees); the top salary.",
+      "hints": [
+        "Subquery extracts the maximum salary. The outer query finds the maximum salary strictly less than"
+      ]
+    },
+    {
+      "id": "ext-1793347430822-6",
+      "title": "What is the probability of getting a sum of 9 from",
+      "difficulty": "Intermediate",
+      "topic": "Probability",
+      "description": "What is the probability of getting a sum of 9 from two throws of a dice?",
+      "relevantTables": [
+        "employees",
+        "departments"
+      ],
+      "starterQuery": "SELECT * FROM employees;",
+      "expectedQuery": "SELECT * FROM employees;",
+      "hints": [
+        "Total possible outcomes = 6 * 6 = 36. Favorable outcomes for sum 9 are (3,6), (4,5), (5,4), (6,3) = 4 outcomes. Probability = 4/36 = 1/9. DATABASE & SQL ASSESSMENT 2026 - RELATIONAL QUERIES Page 3"
+      ]
+    },
+    {
+      "id": "ext-1793250446890-4",
+      "title": "[SQL] Top Salaries by Department: Write a SQL quer",
+      "difficulty": "Intermediate",
+      "topic": "Database & Queries",
+      "description": "[SQL] Top Salaries by Department: Write a SQL query to find all employees who earn more than the average salary of their respective departments.",
+      "relevantTables": [
+        "employees",
+        "departments"
+      ],
+      "starterQuery": "SELECT e.first_name, e.salary, e.dept_id FROM employees e WHERE e.salary > (SELECT AVG(salary) FROM employees WHERE dept_id = e.dept_id);",
+      "expectedQuery": "SELECT e.first_name, e.salary, e.dept_id FROM employees e WHERE e.salary > (SELECT AVG(salary) FROM employees WHERE dept_id = e.dept_id);",
+      "hints": [
+        "Correlated subquery compares each employee's salary against the average salary calculated for their specific department."
+      ]
+    },
+    {
+      "id": "ext-1793250446889-1",
+      "title": "CAMPUS RECRUITMENT ASSESSMENT 2026 - TIER-1 TEST P",
+      "difficulty": "Intermediate",
+      "topic": "Database & Queries",
+      "description": "CAMPUS RECRUITMENT ASSESSMENT 2026 - TIER-1 TEST PAPER Subject: Quantitative Aptitude, Data Structures & SQL Database",
+      "relevantTables": [
+        "employees",
+        "departments"
+      ],
+      "starterQuery": "SELECT * FROM employees;",
+      "expectedQuery": "SELECT * FROM employees;",
+      "hints": [
+        "Step-by-step logic from uploaded test paper."
+      ]
+    },
+    {
+      "id": "ext-1793250431278-4",
+      "title": "[SQL] Top Salaries by Department: Write a SQL quer",
+      "difficulty": "Intermediate",
+      "topic": "Database & Queries",
+      "description": "[SQL] Top Salaries by Department: Write a SQL query to find all employees who earn more than the average salary of their respective departments.",
+      "relevantTables": [
+        "employees",
+        "departments"
+      ],
+      "starterQuery": "SELECT e.first_name, e.salary, e.dept_id FROM employees e WHERE e.salary > (SELECT AVG(salary) FROM employees WHERE dept_id = e.dept_id);",
+      "expectedQuery": "SELECT e.first_name, e.salary, e.dept_id FROM employees e WHERE e.salary > (SELECT AVG(salary) FROM employees WHERE dept_id = e.dept_id);",
+      "hints": [
+        "Correlated subquery compares each employee's salary against the average salary calculated for their specific department."
+      ]
+    },
+    {
+      "id": "ext-1793250431277-1",
+      "title": "CAMPUS RECRUITMENT ASSESSMENT 2026 - TIER-1 TEST P",
+      "difficulty": "Intermediate",
+      "topic": "Database & Queries",
+      "description": "CAMPUS RECRUITMENT ASSESSMENT 2026 - TIER-1 TEST PAPER Subject: Quantitative Aptitude, Data Structures & SQL Database",
+      "relevantTables": [
+        "employees",
+        "departments"
+      ],
+      "starterQuery": "SELECT * FROM employees;",
+      "expectedQuery": "SELECT * FROM employees;",
+      "hints": [
+        "Step-by-step logic from uploaded test paper."
+      ]
+    },
+    {
+      "id": "sql-1",
+      "title": "Top Earning Employee per Department",
+      "difficulty": "Medium",
+      "topic": "GROUP BY",
+      "description": "Find each department name and the maximum salary paid in that department. Display columns as `dept_name` and `max_salary`. Order by `max_salary` descending.",
+      "relevantTables": [
+        "employees",
+        "departments"
+      ],
+      "starterQuery": "SELECT d.dept_name, MAX(e.salary) AS max_salary\nFROM employees e\nJOIN departments d ON e.dept_id = d.dept_id\nGROUP BY d.dept_name\nORDER BY max_salary DESC;",
+      "expectedQuery": "SELECT d.dept_name, MAX(e.salary) AS max_salary FROM employees e JOIN departments d ON e.dept_id = d.dept_id GROUP BY d.dept_name ORDER BY max_salary DESC;",
+      "hints": [
+        "Use an INNER JOIN between `employees` and `departments` on `dept_id`.",
+        "Group the results by `d.dept_name`.",
+        "Use the aggregate function `MAX(e.salary)` and alias it as `max_salary`."
+      ]
+    },
+    {
+      "id": "sql-2",
+      "title": "High Package Student Placements",
+      "difficulty": "Easy",
+      "topic": "Filtering",
+      "description": "Retrieve the names and package amounts of all students who secured a package greater than 20.0 LPA. Return columns `student_name`, `company`, `package_lpa`. Order by `package_lpa` descending.",
+      "relevantTables": [
+        "student_placements"
+      ],
+      "starterQuery": "SELECT student_name, company, package_lpa\nFROM student_placements\nWHERE package_lpa > 20.0\nORDER BY package_lpa DESC;",
+      "expectedQuery": "SELECT student_name, company, package_lpa FROM student_placements WHERE package_lpa > 20.0 ORDER BY package_lpa DESC;",
+      "hints": [
+        "Filter with `WHERE package_lpa > 20.0`.",
+        "Sort using `ORDER BY package_lpa DESC`."
+      ]
+    },
+    {
+      "id": "sql-3",
+      "title": "Department Headcount & Average Salary",
+      "difficulty": "Medium",
+      "topic": "Aggregate Functions",
+      "description": "For each department, calculate the total number of employees (`emp_count`) and the average salary (`avg_salary` rounded to whole number). Only include departments with more than 1 employee.",
+      "relevantTables": [
+        "departments",
+        "employees"
+      ],
+      "starterQuery": "SELECT d.dept_name, COUNT(e.emp_id) AS emp_count, ROUND(AVG(e.salary)) AS avg_salary\nFROM departments d\nJOIN employees e ON d.dept_id = e.dept_id\nGROUP BY d.dept_name\nHAVING COUNT(e.emp_id) > 1;",
+      "expectedQuery": "SELECT d.dept_name, COUNT(e.emp_id) AS emp_count, ROUND(AVG(e.salary)) AS avg_salary FROM departments d JOIN employees e ON d.dept_id = e.dept_id GROUP BY d.dept_name HAVING COUNT(e.emp_id) > 1;",
+      "hints": [
+        "Remember that conditions on aggregate results (like count > 1) require `HAVING`, not `WHERE`.",
+        "Join on `dept_id` and group by `d.dept_name`."
+      ]
+    }
+  ],
+  "customSqlTables": [
+    {
+      "id": "tbl-dept",
+      "tableName": "departments",
+      "description": "Company departmental divisions, locations, and annual budget allocations.",
+      "columns": [
+        {
+          "name": "dept_id",
+          "type": "INT"
+        },
+        {
+          "name": "dept_name",
+          "type": "STRING"
+        },
+        {
+          "name": "location",
+          "type": "STRING"
+        },
+        {
+          "name": "budget",
+          "type": "INT"
+        }
+      ],
+      "rows": [
+        {
+          "dept_id": 1,
+          "dept_name": "Engineering",
+          "location": "Building A",
+          "budget": 500000
+        },
+        {
+          "dept_id": 2,
+          "dept_name": "Data Science",
+          "location": "Building B",
+          "budget": 420000
+        },
+        {
+          "dept_id": 3,
+          "dept_name": "Product",
+          "location": "Building A",
+          "budget": 300000
+        },
+        {
+          "dept_id": 4,
+          "dept_name": "Quality Assurance",
+          "location": "Building C",
+          "budget": 200000
+        }
+      ],
+      "createdAt": "2026-10-30T05:47:21.389Z"
+    },
+    {
+      "id": "tbl-emp",
+      "tableName": "employees",
+      "description": "Staff directory with departmental assignments, salaries, and engineering roles.",
+      "columns": [
+        {
+          "name": "emp_id",
+          "type": "INT"
+        },
+        {
+          "name": "first_name",
+          "type": "STRING"
+        },
+        {
+          "name": "last_name",
+          "type": "STRING"
+        },
+        {
+          "name": "dept_id",
+          "type": "INT"
+        },
+        {
+          "name": "salary",
+          "type": "INT"
+        },
+        {
+          "name": "hire_date",
+          "type": "STRING"
+        },
+        {
+          "name": "role",
+          "type": "STRING"
+        }
+      ],
+      "rows": [
+        {
+          "emp_id": 101,
+          "first_name": "Arjun",
+          "last_name": "Sharma",
+          "dept_id": 1,
+          "salary": 95000,
+          "hire_date": "2022-01-15",
+          "role": "Senior SDE"
+        },
+        {
+          "emp_id": 102,
+          "first_name": "Priya",
+          "last_name": "Nair",
+          "dept_id": 1,
+          "salary": 75000,
+          "hire_date": "2023-03-10",
+          "role": "SDE II"
+        },
+        {
+          "emp_id": 103,
+          "first_name": "Rohan",
+          "last_name": "Verma",
+          "dept_id": 2,
+          "salary": 85000,
+          "hire_date": "2022-06-01",
+          "role": "Data Scientist"
+        },
+        {
+          "emp_id": 104,
+          "first_name": "Ananya",
+          "last_name": "Iyer",
+          "dept_id": 2,
+          "salary": 65000,
+          "hire_date": "2023-08-20",
+          "role": "ML Engineer"
+        },
+        {
+          "emp_id": 105,
+          "first_name": "Vikram",
+          "last_name": "Singh",
+          "dept_id": 3,
+          "salary": 90000,
+          "hire_date": "2021-11-12",
+          "role": "Product Manager"
+        },
+        {
+          "emp_id": 106,
+          "first_name": "Sneha",
+          "last_name": "Patel",
+          "dept_id": 4,
+          "salary": 60000,
+          "hire_date": "2023-02-14",
+          "role": "QA Lead"
+        },
+        {
+          "emp_id": 107,
+          "first_name": "Karan",
+          "last_name": "Mehta",
+          "dept_id": 1,
+          "salary": 62000,
+          "hire_date": "2024-01-10",
+          "role": "Junior SDE"
+        },
+        {
+          "emp_id": 108,
+          "first_name": "Neha",
+          "last_name": "Deshmukh",
+          "dept_id": 2,
+          "salary": 72000,
+          "hire_date": "2023-05-18",
+          "role": "Data Analyst"
+        }
+      ]
+    },
+    {
+      "id": "tbl-proj",
+      "tableName": "projects",
+      "description": "Active departmental engineering and machine learning initiatives.",
+      "columns": [
+        {
+          "name": "project_id",
+          "type": "INT"
+        },
+        {
+          "name": "project_name",
+          "type": "STRING"
+        },
+        {
+          "name": "dept_id",
+          "type": "INT"
+        },
+        {
+          "name": "budget",
+          "type": "INT"
+        }
+      ],
+      "rows": [
+        {
+          "project_id": 201,
+          "project_name": "Cloud Platform Migration",
+          "dept_id": 1,
+          "budget": 150000
+        },
+        {
+          "project_id": 202,
+          "project_name": "AI Recommendation Engine",
+          "dept_id": 2,
+          "budget": 220000
+        },
+        {
+          "project_id": 203,
+          "project_name": "Mobile App Redesign",
+          "dept_id": 3,
+          "budget": 95000
+        },
+        {
+          "project_id": 204,
+          "project_name": "Automated Test Framework",
+          "dept_id": 4,
+          "budget": 70000
+        }
+      ]
+    },
+    {
+      "id": "tbl-plac",
+      "tableName": "student_placements",
+      "description": "Campus placement drive offers, CGPA standings, and package amounts in LPA.",
+      "columns": [
+        {
+          "name": "student_id",
+          "type": "INT"
+        },
+        {
+          "name": "student_name",
+          "type": "STRING"
+        },
+        {
+          "name": "department",
+          "type": "STRING"
+        },
+        {
+          "name": "cgpa",
+          "type": "FLOAT"
+        },
+        {
+          "name": "company",
+          "type": "STRING"
+        },
+        {
+          "name": "package_lpa",
+          "type": "FLOAT"
+        },
+        {
+          "name": "status",
+          "type": "STRING"
+        }
+      ],
+      "rows": [
+        {
+          "student_id": 1,
+          "student_name": "Aarav Gupta",
+          "department": "Computer Science",
+          "cgpa": 8.9,
+          "company": "Google",
+          "package_lpa": 32.5,
+          "status": "Selected"
+        },
+        {
+          "student_id": 2,
+          "student_name": "Ishita Roy",
+          "department": "Information Tech",
+          "cgpa": 8.4,
+          "company": "Amazon",
+          "package_lpa": 28,
+          "status": "Selected"
+        },
+        {
+          "student_id": 3,
+          "student_name": "Devansh Sen",
+          "department": "Computer Science",
+          "cgpa": 7.8,
+          "company": "TCS Digital",
+          "package_lpa": 7.5,
+          "status": "Selected"
+        },
+        {
+          "student_id": 4,
+          "student_name": "Rhea Menon",
+          "department": "Electronics",
+          "cgpa": 8.2,
+          "company": "Microsoft",
+          "package_lpa": 24,
+          "status": "Selected"
+        },
+        {
+          "student_id": 5,
+          "student_name": "Kabir Kapoor",
+          "department": "Computer Science",
+          "cgpa": 9.1,
+          "company": "Goldman Sachs",
+          "package_lpa": 25,
+          "status": "Selected"
+        },
+        {
+          "student_id": 6,
+          "student_name": "Tanvi Rao",
+          "department": "Data Science",
+          "cgpa": 8.6,
+          "company": "Adobe",
+          "package_lpa": 22,
+          "status": "Selected"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc-1",
+      "subject": "Operating Systems",
+      "topic": "Process vs Thread",
+      "front": "What is the primary difference between a Process and a Thread in terms of memory?",
+      "back": "A Process has its own independent virtual address space and isolated heap/data segments. Threads within the same process share that memory space and global variables, but retain independent stacks and registers."
+    },
+    {
+      "id": "fc-2",
+      "subject": "Operating Systems",
+      "topic": "Deadlock Conditions",
+      "front": "Name all 4 Coffman conditions required for a Deadlock to occur.",
+      "back": "1. Mutual Exclusion\n2. Hold and Wait\n3. No Preemption\n4. Circular Wait\nBreaking any ONE condition prevents deadlock."
+    },
+    {
+      "id": "fc-3",
+      "subject": "Computer Networks",
+      "topic": "TCP Handshake",
+      "front": "What are the three packets exchanged in a TCP connection establishment?",
+      "back": "1. SYN (from client with sequence number X)\n2. SYN-ACK (from server with ACK=X+1 and seq=Y)\n3. ACK (from client with ACK=Y+1)"
+    },
+    {
+      "id": "fc-4",
+      "subject": "Database Management Systems",
+      "topic": "ACID Properties",
+      "front": "What does the \"I\" in ACID stand for, and name the standard 4 isolation levels?",
+      "back": "Isolation: Ensures concurrent transactions do not interfere.\nLevels from weakest to strongest:\n1. Read Uncommitted\n2. Read Committed\n3. Repeatable Read\n4. Serializable"
+    },
+    {
+      "id": "fc-5",
+      "subject": "Database Management Systems",
+      "topic": "Indexing",
+      "front": "Why are B+ Trees preferred over B-Trees for database indexing?",
+      "back": "In B+ Trees, data pointers are exclusively stored in leaf nodes, allowing internal nodes to hold more index keys (higher branching factor/less disk I/O depth). Leaf nodes are linked in a doubly-linked list, making range queries extremely fast."
+    },
+    {
+      "id": "fc-6",
+      "subject": "Object-Oriented Programming",
+      "topic": "SOLID Principles",
+      "front": "What is the Liskov Substitution Principle (LSP)?",
+      "back": "Objects of a superclass should be replaceable with objects of a subclass without altering the correctness or desirable properties of the program."
+    }
+  ],
+  "mockInterviewSlots": [
+    {
+      "id": "mock-1",
+      "role": "Software Engineer (Frontend/Fullstack)",
+      "company": "Google",
+      "date": "2026-10-08",
+      "timeSlot": "04:00 PM - 05:00 PM",
+      "type": "Technical DSA",
+      "interviewerName": "AI Senior Staff Engineer",
+      "status": "Scheduled"
+    },
+    {
+      "id": "mock-2",
+      "role": "Associate Software Developer",
+      "company": "Amazon",
+      "date": "2026-10-10",
+      "timeSlot": "11:00 AM - 12:00 PM",
+      "type": "Full Placement Simulation",
+      "interviewerName": "AI Bar Raiser",
+      "status": "Scheduled"
+    },
+    {
+      "id": "mock-3",
+      "role": "Graduate Trainee Engineer",
+      "company": "TCS Digital",
+      "date": "2026-10-04",
+      "timeSlot": "02:00 PM - 02:45 PM",
+      "type": "Core CS & System Design",
+      "interviewerName": "AI Technical Lead",
+      "status": "Completed",
+      "feedbackReport": {
+        "technicalScore": 84,
+        "communicationScore": 88,
+        "problemSolvingScore": 82,
+        "overallRecommendation": "Strong Hire - Candidate demonstrated solid grasp of DBMS indexing and OS thread concurrency.",
+        "strengths": [
+          "Clear explanation of B+ tree advantages for range queries",
+          "Structured approach to Deadlock prevention with Coffman breakdown",
+          "Strong communicative articulation when thinking aloud"
+        ],
+        "improvements": [
+          "Clarify worst-case space complexity when recursion is unrolled",
+          "Address network timeout retries in distributed client-server scenarios"
+        ],
+        "detailedNotes": "Devika performed exceptionally well in the technical screening round. Keep refining dynamic programming edge cases."
+      }
+    }
+  ],
+  "mockInterviewHistory": [
+    {
+      "id": "sess-1793345886338",
+      "userId": "stu-1793338708893",
+      "candidateName": "Harikesh M",
+      "targetCompany": "Google",
+      "interviewType": "Technical DSA",
+      "date": "2026-10-30",
+      "scores": {
+        "technical": 10,
+        "communication": 12,
+        "problemSolving": 10,
+        "overall": 10
+      },
+      "verdict": "No Hire (Incomplete / No Answers Provided)",
+      "strengths": [
+        "Session initiated"
+      ],
+      "improvements": [
+        "Must attempt problem breakdown and provide algorithmic explanations in campus interviews"
+      ],
+      "transcript": [
+        {
+          "role": "interviewer",
+          "content": "🤖 [AI Technical Interviewer - Google]\nWelcome to your Technical Algorithmic Mock Interview session!\n\nHere is your initial challenge:\n\"Given an array of integers `nums` and an integer `target`, write an algorithm to find the indices of two numbers such that they add up to `target`.\n\n1. Explain your initial intuition and optimal time/space complexity approach.\n2. Walk me through how you would implement this using a Hash Map versus Two Pointers, and specify which approach is optimal when original indices are needed.\"",
+          "modelUsed": "Gemini Cloud AI"
+        },
+        {
+          "role": "candidate",
+          "content": "Okay"
+        },
+        {
+          "role": "interviewer",
+          "content": "🤖 [AI Technical Interviewer - Google]\n⚠️ Candidate Response Notice:\nIt appears you did not provide a technical explanation or skipped this question (\"Okay\").\n\nIn a placement interview with Google, giving an empty response or skipping severely penalizes your evaluation score. \nFollow-up Probe:\n- What is the brute-force way you might start solving this?\n- What data structure (e.g. Array, Hash Map, Set, or Stack) could help look up elements faster? Please explain your intuition!",
+          "modelUsed": "Gemini Cloud AI"
+        }
+      ]
+    },
+    {
+      "id": "sess-1793342852390",
+      "userId": "stu-1793338708893",
+      "candidateName": "Harikesh M",
+      "targetCompany": "Google",
+      "interviewType": "Technical DSA",
+      "date": "2026-10-30",
+      "scores": {
+        "technical": 10,
+        "communication": 12,
+        "problemSolving": 10,
+        "overall": 10
+      },
+      "verdict": "No Hire (Incomplete / No Answers Provided)",
+      "strengths": [
+        "Session initiated"
+      ],
+      "improvements": [
+        "Must attempt problem breakdown and provide algorithmic explanations in campus interviews"
+      ],
+      "transcript": [
+        {
+          "role": "interviewer",
+          "content": "🤖 [AI Technical Interviewer - Google]\nWelcome to your Technical Algorithmic Mock Interview session!\n\nHere is your initial challenge:\n\"Given an array of integers `nums` and an integer `target`, write an algorithm to find the indices of two numbers such that they add up to `target`.\n\n1. Explain your initial intuition and optimal time/space complexity approach.\n2. Walk me through how you would implement this using a Hash Map versus Two Pointers, and specify which approach is optimal when original indices are needed.\"",
+          "modelUsed": "Gemini Cloud AI"
+        },
+        {
+          "role": "candidate",
+          "content": "Na"
+        },
+        {
+          "role": "interviewer",
+          "content": "🤖 [AI Technical Interviewer - Google]\n⚠️ Candidate Response Notice:\nIt appears you did not provide a technical explanation or skipped this question (\"Na\").\n\nIn a placement interview with Google, giving an empty response or skipping severely penalizes your evaluation score. \nFollow-up Probe:\n- What is the brute-force way you might start solving this?\n- What data structure (e.g. Array, Hash Map, Set, or Stack) could help look up elements faster? Please explain your intuition!",
+          "modelUsed": "Gemini Cloud AI"
+        }
+      ]
+    },
+    {
+      "id": "sess-1793279916689",
+      "userId": "stu-1793249815283",
+      "candidateName": "student",
+      "targetCompany": "Google",
+      "interviewType": "Technical DSA",
+      "date": "2026-10-29",
+      "scores": {
+        "technical": 10,
+        "communication": 12,
+        "problemSolving": 10,
+        "overall": 10
+      },
+      "verdict": "No Hire (Incomplete / No Answers Provided)",
+      "strengths": [
+        "Session initiated"
+      ],
+      "improvements": [
+        "Must attempt problem breakdown and provide algorithmic explanations in campus interviews"
+      ],
+      "transcript": [
+        {
+          "role": "interviewer",
+          "content": "🤖 [AI Technical Interviewer - Google]\nWelcome to your Technical Algorithmic Mock Interview session!\n\nHere is your initial challenge:\n\"Given an array of integers `nums` and an integer `target`, write an algorithm to find the indices of two numbers such that they add up to `target`.\n\n1. Explain your initial intuition and optimal time/space complexity approach.\n2. Walk me through how you would implement this using a Hash Map versus Two Pointers, and specify which approach is optimal when original indices are needed.\"",
+          "modelUsed": "Gemini Cloud AI"
+        },
+        {
+          "role": "candidate",
+          "content": "na"
+        },
+        {
+          "role": "interviewer",
+          "content": "🤖 [AI Technical Interviewer - Google]\n⚠️ Candidate Response Notice:\nIt appears you did not provide a technical explanation or skipped this question (\"na\").\n\nIn a placement interview with Google, giving an empty response or skipping severely penalizes your evaluation score. \nFollow-up Probe:\n- What is the brute-force way you might start solving this?\n- What data structure (e.g. Array, Hash Map, Set, or Stack) could help look up elements faster? Please explain your intuition!",
+          "modelUsed": "Gemini Cloud AI"
+        }
+      ]
+    },
+    {
+      "id": "sess-1793250208546",
+      "userId": "stu-1793249815283",
+      "candidateName": "student",
+      "targetCompany": "Google",
+      "interviewType": "Technical DSA",
+      "date": "2026-10-29",
+      "scores": {
+        "technical": 55,
+        "communication": 75,
+        "problemSolving": 52,
+        "overall": 61
+      },
+      "verdict": "Hire with Reservations",
+      "strengths": [
+        "Active technical responses provided",
+        "Articulated core algorithmic concepts"
+      ],
+      "improvements": [
+        "State time/space complexity explicitly before finalizing code"
+      ],
+      "transcript": [
+        {
+          "role": "interviewer",
+          "content": "🤖 [AI Technical Interviewer - Google]\nWelcome to your Technical Algorithmic Mock Interview session!\n\nHere is your initial challenge:\n\"Given an array of integers `nums` and an integer `target`, write an algorithm to find the indices of two numbers such that they add up to `target`.\n\n1. Explain your initial intuition and optimal time/space complexity approach.\n2. Walk me through how you would implement this using a Hash Map versus Two Pointers, and specify which approach is optimal when original indices are needed.\"",
+          "modelUsed": "Gemini Cloud AI"
+        },
+        {
+          "role": "candidate",
+          "content": "Thank for this oppourtunity but iam not aware of this questions"
+        },
+        {
+          "role": "interviewer",
+          "content": "🤖 [AI Technical Interviewer - Google]\nI evaluated your approach: \"Thank for this oppourtunity but iam not aware of this questions\"\n\nFollow-up Technical Probe:\n- How would your implementation handle extreme edge cases such as empty input arrays, negative integers, or integer overflow?\n- Can you step through a quick dry run with `nums = [3, 2, 4]` and `target = 6` and state your exact time and space complexity?",
+          "modelUsed": "Gemini Cloud AI"
+        },
+        {
+          "role": "candidate",
+          "content": "Do know"
+        },
+        {
+          "role": "interviewer",
+          "content": "🤖 [AI Technical Interviewer - Google]\n⚠️ Candidate Response Notice:\nIt appears you did not provide a technical explanation or skipped this question (\"Do know\").\n\nIn a placement interview with Google, giving an empty response or skipping severely penalizes your evaluation score. \nFollow-up Probe:\n- What is the brute-force way you might start solving this?\n- What data structure (e.g. Array, Hash Map, Set, or Stack) could help look up elements faster? Please explain your intuition!",
+          "modelUsed": "Gemini Cloud AI"
+        },
+        {
+          "role": "candidate",
+          "content": "Don't Know"
+        },
+        {
+          "role": "interviewer",
+          "content": "🤖 [AI Technical Interviewer - Google]\nI evaluated your approach: \"Don't Know\"\n\nFollow-up Technical Probe:\n- How would your implementation handle extreme edge cases such as empty input arrays, negative integers, or integer overflow?\n- Can you step through a quick dry run with `nums = [3, 2, 4]` and `target = 6` and state your exact time and space complexity?",
+          "modelUsed": "Gemini Cloud AI"
+        },
+        {
+          "role": "candidate",
+          "content": "Finish the test"
+        },
+        {
+          "role": "interviewer",
+          "content": "🤖 [AI Technical Interviewer - Google]\nI evaluated your approach: \"Finish the test\"\n\nFollow-up Technical Probe:\n- How would your implementation handle extreme edge cases such as empty input arrays, negative integers, or integer overflow?\n- Can you step through a quick dry run with `nums = [3, 2, 4]` and `target = 6` and state your exact time and space complexity?",
+          "modelUsed": "Gemini Cloud AI"
+        }
+      ]
+    },
+    {
+      "id": "sess-1793245750908",
+      "userId": "stu-101",
+      "candidateName": "Devika Sharma",
+      "targetCompany": "TCS Digital",
+      "interviewType": "Technical DSA",
+      "date": "2026-10-29",
+      "scores": {
+        "technical": 88,
+        "communication": 86,
+        "problemSolving": 85,
+        "overall": 86
+      },
+      "verdict": "Strong Hire Candidate",
+      "strengths": [
+        "Structured algorithmic approach",
+        "Clear explanation of constraints"
+      ],
+      "improvements": [
+        "State space complexity trade-offs explicitly earlier"
+      ],
+      "transcript": [
+        {
+          "role": "interviewer",
+          "content": "🤖 [AI Technical Interviewer]\nWelcome to your Technical DSA mock interview session!\n\nHere is your first coding & algorithmic challenge:\n\"Given an array of integers `nums` and an integer `target`, write an algorithm to find the indices of two numbers such that they add up to `target`.\n\n1. Explain your initial intuition and optimal time/space complexity approach.\n2. Walk me through how you would implement this using a Hash Map versus Two Pointers.\"",
+          "modelUsed": "Gemini Cloud AI"
+        },
+        {
+          "role": "candidate",
+          "content": "hi"
+        },
+        {
+          "role": "interviewer",
+          "content": "🤖 [AI Technical Interviewer]\nThank you for your explanation!\n\nEvaluation & Follow-up Question:\n- Your core logical approach is clear and covers standard inputs well.\n- Follow-up Question: How would your solution handle edge cases such as empty input arrays, duplicate elements, or memory constraints? Can you optimize the time complexity further down to O(N)?",
+          "modelUsed": "Gemini Cloud AI"
+        }
+      ]
+    },
+    {
+      "id": "hist-1",
+      "userId": "stu-101",
+      "candidateName": "Devika Sharma",
+      "targetCompany": "Google",
+      "interviewType": "Technical DSA",
+      "date": "2026-10-27",
+      "scores": {
+        "technical": 88,
+        "communication": 85,
+        "problemSolving": 90,
+        "overall": 88
+      },
+      "verdict": "Strong Hire",
+      "strengths": [
+        "Clean algorithmic logic",
+        "Clear time complexity trade-offs"
+      ],
+      "improvements": [
+        "Check edge cases like empty arrays earlier in the discussion"
+      ],
+      "transcriptCount": 6
+    }
+  ],
+  "cohortStudents": [
+    {
+      "id": "stu-101",
+      "name": "Devika Sharma",
+      "branch": "Computer Science",
+      "dsaScore": 76,
+      "aptitudeScore": 82,
+      "sqlScore": 79,
+      "readiness": 78,
+      "status": "Almost Ready"
+    },
+    {
+      "id": "stu-102",
+      "name": "Rohan Verma",
+      "branch": "Computer Science",
+      "dsaScore": 92,
+      "aptitudeScore": 90,
+      "sqlScore": 88,
+      "readiness": 91,
+      "status": "Placement Ready"
+    },
+    {
+      "id": "stu-103",
+      "name": "Priya Nair",
+      "branch": "Information Technology",
+      "dsaScore": 85,
+      "aptitudeScore": 78,
+      "sqlScore": 82,
+      "readiness": 82,
+      "status": "Placement Ready"
+    },
+    {
+      "id": "stu-104",
+      "name": "Arjun Mehta",
+      "branch": "Electronics & Comm",
+      "dsaScore": 72,
+      "aptitudeScore": 76,
+      "sqlScore": 70,
+      "readiness": 73,
+      "status": "Almost Ready"
+    },
+    {
+      "id": "stu-105",
+      "name": "Sneha Patel",
+      "branch": "Data Science",
+      "dsaScore": 95,
+      "aptitudeScore": 92,
+      "sqlScore": 94,
+      "readiness": 94,
+      "status": "Placement Ready"
+    },
+    {
+      "id": "stu-106",
+      "name": "Tanvi Rao",
+      "branch": "Computer Science",
+      "dsaScore": 65,
+      "aptitudeScore": 60,
+      "sqlScore": 68,
+      "readiness": 64,
+      "status": "Needs Improvement"
+    },
+    {
+      "id": "stu-107",
+      "name": "Vikram Singh",
+      "branch": "Information Technology",
+      "dsaScore": 86,
+      "aptitudeScore": 82,
+      "sqlScore": 85,
+      "readiness": 85,
+      "status": "Placement Ready"
+    },
+    {
+      "id": "stu-108",
+      "name": "Ananya Iyer",
+      "branch": "Data Science",
+      "dsaScore": 78,
+      "aptitudeScore": 80,
+      "sqlScore": 75,
+      "readiness": 78,
+      "status": "Almost Ready"
+    },
+    {
+      "id": "stu-1793249815283",
+      "name": "student",
+      "branch": "Computer Science",
+      "dsaScore": 94,
+      "aptitudeScore": 97,
+      "sqlScore": 99,
+      "readiness": 91,
+      "status": "Placement Ready"
+    },
+    {
+      "id": "stu-1793338708893",
+      "name": "Harikesh M",
+      "branch": "Computer Science",
+      "dsaScore": 70,
+      "aptitudeScore": 70,
+      "sqlScore": 10,
+      "readiness": 7,
+      "status": "Needs Improvement"
+    },
+    {
+      "id": "stu-1793340623716",
+      "name": "Test Candidate",
+      "branch": "Computer Science",
+      "dsaScore": 0,
+      "aptitudeScore": 0,
+      "sqlScore": 0,
+      "readiness": 0,
+      "status": "Beginner Level"
+    }
+  ]
+}
